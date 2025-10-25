@@ -1,4 +1,4 @@
-const API_URL = "https://diass-smm-api.vercel.app"; // 🔗 Hubungkan ke backend kamu
+const API_URL = "https://diass-smm-api-beige.vercel.app";
 
 async function loadUser() {
   const res = await fetch(`${API_URL}/api/user`);
@@ -32,4 +32,5 @@ async function makeOrder() {
 document.addEventListener("DOMContentLoaded", () => {
   loadUser();
   loadServices();
+
 });
